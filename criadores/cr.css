@@ -64,7 +64,7 @@ main{
     background-color: rgb(20, 20, 20);
     margin: auto;
     max-width: 1000px;
-    max-height: 600px;
+    max-height: 550px;
     padding: 00px;
     box-shadow: 1px 1px 6px black;
     border-bottom-right-radius: 20px;
@@ -87,7 +87,7 @@ main p{
 }
 
 main #fo{
-    top:  80px;
+    top:  40px;
     position: relative;
 }
 
