@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -56,9 +58,27 @@ nav #aa{
     float: right;
 }
 
-div.drx img{
-    
-    padding-left: 10vw;
+div.drx h1 {
+    font-size: 20vh;
+    font-family: 'The Nautigal', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+div.drx span{
+    font-family: 'The Nautigal', sans-serif;
+}
+
+div.drx #d{
+    color: white;
+}
+
+div.drx #r{
+    color: rgb(255, 255, 255);
+}
+
+div.drx #x{
+    color: rgb(197, 0, 0);
 }
 
 div#text{
