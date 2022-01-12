@@ -71,13 +71,15 @@ div ul li{
     list-style: none;
 }
 div#bb{
+    padding: 60px;
     padding-bottom: 100px;
+    
 }
 
 div#bb a{
     position: relative;
     top: 40px;
-    margin-left: 30vw;
+    
     border-radius: 10px;
     padding: 15px;
     text-decoration: none;
@@ -87,6 +89,7 @@ div#bb a{
 }
 
 div a#cc{
+
     box-shadow: rgba(255, 0, 0, 0.774) 6px 5px 0px 1px;
     padding-right: 100px;
     padding-left: 100px;
