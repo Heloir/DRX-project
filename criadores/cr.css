@@ -64,8 +64,7 @@ main{
     background-color: rgb(20, 20, 20);
     margin: auto;
     max-width: 1000px;
-    max-height: 550px;
-    padding: 00px;
+    min-height:  700px;
     box-shadow: 1px 1px 6px black;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -118,4 +117,17 @@ div.drx #r{
 
 div.drx #x{
     color: rgb(197, 0, 0);
+}
+
+main li{
+    color: white;
+}
+
+main li #f{
+    color: rgb(163, 2, 2);
+}
+
+main li a:hover{
+    text-decoration: underline;
+    
 }
