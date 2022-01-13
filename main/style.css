@@ -91,8 +91,15 @@ div ul li{
     padding-left: 6vh;
     list-style: none;
 }
+
 div#bb{
-    padding: 60px;
+    
+    font-family: 'The Nautigal', sans-serif;
+    margin: auto;
+    text-align: right;
+}
+div#bb{
+    padding-right: 50px;
     padding-bottom: 100px;
     
 }
