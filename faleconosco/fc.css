@@ -10,28 +10,112 @@
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+  }
 
 body{
-    
-    font-family: Arial, Helvetica, sans-serif;
+
     background-color: rgb(22, 22, 22);
-    transition: 0.5s;
-}
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+
+  
+  h1, h2 {
+    
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  h1::before {
+    content: "📧";
+    display: block;
+  }
+  
+  h2::before {
+    content: "🐅";
+    display: block;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.0rem;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 3rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: rgb(77, 1, 13);
+    box-shadow: 0 0 0 3px #ff4d4d;
+  }
+  
+  .form button {
+    margin-left: 5px;
+    display: block;
+    padding: 1rem;
+    background: #c40000;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: rgb(221, 0, 0);
+  }
 
 
-nav{
-    box-shadow: black 1px -3px 15px;
-    top: 0;
-    position: sticky;
-    font-family: 'Oswald', sans-serif;
-    padding: 25px;
-    background-color: rgb(17, 17, 17);
-}
+
 
 nav li{
     display: inline-block;
@@ -45,6 +129,7 @@ nav a{
     margin-left: 30px;
     transition: 0.5s;
 }
+
 /*color: rgb(163, 2, 2);*/
 
 nav a:hover{
@@ -54,119 +139,20 @@ nav a:hover{
 
 }
 
-nav #aa{
-    float: right;
+ul li{
+    list-style: none;
 }
 
-
-h1{
-    top: 60px;
+ul li a{
+    top: 50px;
     position: relative;
-    font-size: 10vh;
-    text-align: center;
-    color: white; 
-    font-family: 'The Nautigal', sans-serif;
-}
-
-/*Parte do Whatsapp*/
-
-
-
-img:hover{
-    width: 80px;
-}
-
-a{
-    color: white;
     text-decoration: none;
-}
-
-a #w{
-    position: relative;
-    left:10%;
-    top: 100px;
     color: white;
-    text-decoration: none;
-    max-width: 100px;
-
-}
-
-#wimg{
-    position: relative;
-    left: 10%;
-    top: 90px;
     transition: 0.5s;
+    
 }
 
-
-img:hover{
-    width: 80px;
+ul li a:hover{
+  color: rgb(163, 2, 2);;
 }
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a #w{
-    position: relative;
-    left:10%;
-    top: 100px;
-    color: white;
-    text-decoration: none;
-    max-width: 100px;
-
-}
-
-
-
-/*Parte do icone do Discord*/
-
-
-
-
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a #d{
-    position: relative;
-    left:10%;
-    top: 100px;
-    color: white;
-    text-decoration: none;
-    max-width: 100px;
-
-}
-
-#dimg{
-    position: relative;
-    left: 9.5%;
-    top: 150px;
-    transition: 0.5s;
-}
-
-
-
-img:hover{
-    width: 80px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a #d{
-    position: relative;
-    left:10%;
-    top: 160px;
-    color: white;
-    text-decoration: none;
-    max-width: 100px;
-}
-
-
 

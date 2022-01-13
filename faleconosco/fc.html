@@ -9,17 +9,33 @@
     <title>Fale Conosco</title>
 </head>
 <body>
-    <nav>
-        <ul>
-        <li><a href="../main/index.html">VOLTAR</a></li>
-        <li id="aa"><a href="#">IR PARA A LOJA</a></li>
-    </ul></nav>
 
   
-       <h1>Meios de contato</h1>
-       <p></p>
-           <a href="https://wa.me/5519997826035" target="_blank"><img src="whatsapp.png" alt="whatsapp" width="70px" id="wimg"> <p id="w">Whatsapp</p> </a>
-           <a href="https://discord.gg/drx" target="_blank"><img src="discordi.png" alt="whatsapp" width="70px" id="dimg" > <p id="d">Discord</p> </a>
+    <nav>
+    <h1>Formulário de Contato</h1>
+    <form
+      action="https://formsubmit.co/spportdrx@gmail.com"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Nome</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message" required></textarea>
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="http://127.0.0.1:5500/faleconosco/obrigado/obrigado.html"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+    </nav>
+    <ul>
+      <li><a href="../main/index.html"> VOLTAR PARA O INICIO</a></li>
+    </ul>
    
 </body>
 </html>
