@@ -107,9 +107,8 @@ div#bb{
 div#bb a{
     position: relative;
     top: 40px;
-    
     border-radius: 10px;
-    padding: 15px;
+    padding: 3.0vh;
     text-decoration: none;
     color: white;
     transition: 0.5s;
@@ -117,13 +116,12 @@ div#bb a{
 }
 
 div a#cc{
-
+    
     box-shadow: rgba(255, 0, 0, 0.774) 6px 5px 0px 1px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 4.0vh;
     border: rgb(255, 255, 255) solid 1px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    
     color: rgb(255, 255, 255);
 }
 
