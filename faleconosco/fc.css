@@ -9,6 +9,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
 * {
     margin: 0;
@@ -115,44 +116,26 @@ body{
   }
 
 
-
-
-nav li{
-    display: inline-block;
-    list-style: none;
-}
-
-nav a{
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-left: 30px;
-    transition: 0.5s;
-}
-
-/*color: rgb(163, 2, 2);*/
-
-nav a:hover{
-    border-radius: 10px;
-    padding: 6px;
-    background-color: rgb(163, 2, 2);
-
-}
-
 ul li{
     list-style: none;
 }
 
 ul li a{
+    
+   border: white solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(22, 22, 22);
     top: 50px;
     position: relative;
     text-decoration: none;
     color: white;
     transition: 0.5s;
-    
 }
 
 ul li a:hover{
-  color: rgb(163, 2, 2);;
+  padding: 13px;
+  border: rgba(255, 255, 255, 0) solid 1px;
+  background-color: rgb(163, 2, 2);
 }
 

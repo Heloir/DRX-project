@@ -9,6 +9,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -80,7 +82,9 @@ main li{
 }
 
 main p{
-    padding: 40px;
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+    padding: 10px;
     text-align: center;
 }
 
@@ -95,9 +99,24 @@ main #fo a:hover{
 
 }
 
+
+main li{
+    color: white;
+}
+
+main li #f{
+    color: rgb(163, 2, 2);
+}
+
+main li a:hover{
+    text-decoration: underline;
+    
+}
+
 div.drx h1 {
     font-size: 15vh;
     font-family: 'The Nautigal', sans-serif;
+    padding-bottom: 40px;
     padding-top: 100px;
     text-align: center;
 }
@@ -118,15 +137,12 @@ div.drx #x{
     color: rgb(197, 0, 0);
 }
 
-main li{
-    color: white;
+#ad li{
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+#ad a{
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
 }
 
-main li #f{
-    color: rgb(163, 2, 2);
-}
-
-main li a:hover{
-    text-decoration: underline;
-    
-}
