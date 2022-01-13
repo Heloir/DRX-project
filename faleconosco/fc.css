@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 22);
+    transition: 0.5s;
+}
+
+
+nav{
+    box-shadow: black 1px -3px 15px;
+    top: 0;
+    position: sticky;
+    font-family: 'Oswald', sans-serif;
+    padding: 25px;
+    background-color: rgb(17, 17, 17);
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+/*color: rgb(163, 2, 2);*/
+
+nav a:hover{
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgb(163, 2, 2);
+
+}
+
+nav #aa{
+    float: right;
+}
+
+
+h1{
+    top: 60px;
+    position: relative;
+    font-size: 10vh;
+    text-align: center;
+    color: white; 
+    font-family: 'The Nautigal', sans-serif;
+}
+
+/*Parte do Whatsapp*/
+
+
+
+img:hover{
+    width: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a #w{
+    position: relative;
+    left:10%;
+    top: 100px;
+    color: white;
+    text-decoration: none;
+    max-width: 100px;
+
+}
+
+#wimg{
+    position: relative;
+    left: 10%;
+    top: 90px;
+    transition: 0.5s;
+}
+
+
+img:hover{
+    width: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a #w{
+    position: relative;
+    left:10%;
+    top: 100px;
+    color: white;
+    text-decoration: none;
+    max-width: 100px;
+
+}
+
+
+
+/*Parte do icone do Discord*/
+
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a #d{
+    position: relative;
+    left:10%;
+    top: 100px;
+    color: white;
+    text-decoration: none;
+    max-width: 100px;
+
+}
+
+#dimg{
+    position: relative;
+    left: 9.5%;
+    top: 150px;
+    transition: 0.5s;
+}
+
+
+
+img:hover{
+    width: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a #d{
+    position: relative;
+    left:10%;
+    top: 160px;
+    color: white;
+    text-decoration: none;
+    max-width: 100px;
+}
+
+
+
