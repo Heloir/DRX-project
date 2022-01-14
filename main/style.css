@@ -28,7 +28,7 @@ body{
 nav{
     box-shadow: black 1px -3px 15px;
     top: 0;
-    position: sticky;
+    
     font-family: 'Oswald', sans-serif;
     padding: 25px;
     background-color: rgb(17, 17, 17);
@@ -63,8 +63,8 @@ nav #aa{
 div.drx h1 {
     font-size: 17vh;
     font-family: 'The Nautigal', sans-serif;
-    padding-top: 100px;
     text-align: center;
+    padding: 70px;
 }
 
 div.drx span{
@@ -80,11 +80,11 @@ div.drx #r{
 }
 
 div.drx #x{
-    color: rgb(197, 0, 0);
+    color: tomato;
 }
 
 div#text{
-    padding: 30px;
+    padding: 40px;
     color: white;
 }
 
@@ -135,3 +135,236 @@ div#bb a:hover{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*Discord*/
+
+
+
+
+div.seletor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 100px;
+    min-width: 300px;
+    padding: 20px;
+    min-height: 65vh;
+    box-shadow: rgb(17, 17, 17) 1px -3px 15px;
+    border-radius: 30px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    line-height: 40px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+div.seletor h2#pr{
+    color: green;
+}
+
+div.seletor a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2vh;
+    transition: 0.5s;
+}
+
+div.seletor a:hover{
+    background-color: rgb(255, 121, 97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Spotify*/
+
+
+
+div.seletor1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 540px;
+    max-width: 100px;
+    min-width: 300px;
+    padding: 20px;
+    min-height: 65vh;
+    box-shadow: rgb(17, 17, 17) 1px -3px 15px;
+    border-radius: 30px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    line-height: 40px;
+
+}
+
+img{
+    border-radius: 12px;
+}
+
+div.seletor1 h2#pr{
+    color: green;
+}
+
+div.seletor1 a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2vh;
+    transition: 0.5s;
+}
+
+div.seletor1 a:hover{
+    background-color: rgb(255, 121, 97);
+}
+
+
+@media (max-width: 700px) {
+    div.seletor1{
+        top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Youtube*/
+
+
+div.seletor2{
+    position: relative;
+    bottom: 1085px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    max-width: 100px;
+    min-width: 300px;
+    padding: 20px;
+    min-height: 65vh;
+    box-shadow: rgb(17, 17, 17) 1px -3px 15px;
+    border-radius: 30px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    line-height: 40px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+div.seletor2 h2#pr{
+    color: green;
+}
+
+div.seletor2 a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2vh;
+    transition: 0.5s;
+}
+
+div.seletor2 a:hover{
+    background-color: rgb(255, 121, 97);
+}
+
+
+
+@media  (max-width: 700px) {
+    div.seletor2{
+        position: relative;
+        top: 100px;
+    }
+}
