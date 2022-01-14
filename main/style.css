@@ -134,6 +134,43 @@ div#bb a:hover{
 
 }
 
+div.produtos{
+    height: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+
+/*Seta*/
+
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#img > img {
+    width: 60px;
+    margin-bottom: 20px;
+    animation: jumping 1s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes jumping {
+    from {transform: translateY(-15px);}
+    50% {transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
+
+#conteudo {
+    height: 30vh;
+}
+
+
+
+
 
 
 
