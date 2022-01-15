@@ -173,28 +173,55 @@ div.produtos{
 
 
 
+/*Loja*/
+
+div.fimo{
+    background-color: rgb(22, 22, 22);
+}
+
+/*
+
+@media (max-width: 1516px){
+div.seletor {
+   
+
+}
+@media (max-width: 992px){
+div.fimo {
+    
+
+}
+@media (max-width: 768px){
+div.fimo {
+  
+
+}
+@media (max-width: 576px){
+div.fimo {
+    
+}
+
+*/
 
 
 
 
 
 
-
-
-
-
-/*Discord*/
+/*Spotify*/
 
 
 
 
 div.seletor{
+    position: relative;
+    left: 40px;
+    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
     max-width: 100px;
     min-width: 300px;
     padding: 20px;
@@ -230,6 +257,35 @@ div.seletor a:hover{
 
 
 
+@media (max-width: 1514px) {
+    div.seletor{
+        left: 180px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    div.seletor{
+        left: 50px;
+    }
+}
+
+@media (max-width: 1337px) {
+    div.seletor{
+        left: 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    div.seletor{
+        left: 0;
+        float: none;
+        position: relative;
+        margin: auto;
+
+    }
+}
 
 
 
@@ -265,23 +321,19 @@ div.seletor a:hover{
 
 
 
-
-
-
-
-
-/*Spotify*/
+/*Discord*/
 
 
 
 div.seletor1{
     position: relative;
+    left: 250px;
+    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    bottom: 540px;
     max-width: 100px;
     min-width: 300px;
     padding: 20px;
@@ -316,17 +368,29 @@ div.seletor1 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
-
-@media (max-width: 700px) {
+@media (max-width: 1400px) {
     div.seletor1{
-        top: 50px;
+        left: 180px;
     }
 }
 
 
+@media (max-width: 1337px) {
+    div.seletor1{
+        left: 40px;
 
+    }
+}
 
-
+@media (max-width: 900px) {
+    div.seletor1{
+        left: 0;
+        float: none;
+        position: relative;
+        margin: auto;
+        top: 80px;
+    }
+}
 
 
 
@@ -358,13 +422,12 @@ div.seletor1 a:hover{
 
 div.seletor2{
     position: relative;
-    bottom: 1085px;
+    left: 480px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
     max-width: 100px;
     min-width: 300px;
     padding: 20px;
@@ -398,12 +461,36 @@ div.seletor2 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
-
-
-@media  (max-width: 700px) {
+@media (max-width: 1514px) {
     div.seletor2{
+        left: 300px;
+    }
+}
+
+@media (max-width: 1337px) {
+    div.seletor2{
+        left: 70px;
+
+    }
+}
+
+
+@media (max-width: 1034px) {
+    div.seletor2{
+        top: 50px;
+        left: 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    div.seletor2{
+        left: 0;
+        float: none;
         position: relative;
-        top: 100px;
+        margin: auto;
+        top: 160px;
+        
     }
 }
 
