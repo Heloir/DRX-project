@@ -172,7 +172,6 @@ div.produtos{
 
 
 
-
 /*Loja*/
 
 div.fimo{
@@ -284,6 +283,9 @@ div.seletor a:hover{
         position: relative;
         margin: auto;
 
+    }
+    div#img{
+       display: none;
     }
 }
 
