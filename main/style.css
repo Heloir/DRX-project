@@ -151,6 +151,20 @@ div.loja .aba{
     color: tomato;
 }
 
+@media (max-width: 900px) {
+    div.loja{
+        color: rgba(240, 248, 255, 0);
+    }
+    div.loja h2{
+        color: rgba(240, 248, 255, 0);
+    }
+
+    div.loja .aba{
+        color: rgba(240, 248, 255, 0);
+    }
+}
+
+
 /*Seta*/
 
 
@@ -269,6 +283,7 @@ div.seletor a:hover{
     div.seletor{
         left: 180px;
     }
+    
 
 }
 
@@ -293,10 +308,30 @@ div.seletor a:hover{
         margin: auto;
 
     }
-    div#img{
-       display: none;
+        #img {
+            display: none;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        #img > img {
+            height: 50px;
+            width: 50px;
+            animation: jumping 1s linear infinite;
+            cursor: pointer;
+        }
+        
+        @keyframes jumping {
+            from {transform: translateY(-15px);}
+            50% {transform: translateY(0);}
+            to {transform: translateY(-15px);}
+        }
+        
+        #conteudo {
+            height: 0;
+        }
     }
-}
+
 
 
 
