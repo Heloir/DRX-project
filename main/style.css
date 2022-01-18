@@ -28,7 +28,6 @@ body{
 nav{
     box-shadow: black 1px -3px 15px;
     top: 0;
-    
     font-family: 'Oswald', sans-serif;
     padding: 25px;
     background-color: rgb(17, 17, 17);
@@ -263,6 +262,7 @@ div.seletor h2#pr{
     color: green;
 }
 
+
 div.seletor a{
     text-decoration: none;
     color: white;
@@ -276,7 +276,6 @@ div.seletor a{
 div.seletor a:hover{
     background-color: rgb(255, 121, 97);
 }
-
 
 
 @media (max-width: 1514px) {
