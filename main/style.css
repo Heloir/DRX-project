@@ -277,7 +277,7 @@ div.seletor a:hover{
     background-color: rgb(255, 121, 97);
 }
 
-@media (min-width:1920px) {
+@media (max-width:1920px) {
     div.seletor{
         left: 170px;
     }
@@ -424,7 +424,7 @@ div.seletor1 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
-@media (min-width:1920px) {
+@media (max-width:1920px) {
     div.seletor1{
         left: 460px;
     }
@@ -533,7 +533,7 @@ div.seletor2 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
-@media (min-width:1920px) {
+@media (max-width:1920px) {
     div.seletor2{
         left: 700px;
     }
