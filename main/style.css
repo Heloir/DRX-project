@@ -277,10 +277,21 @@ div.seletor a:hover{
     background-color: rgb(255, 121, 97);
 }
 
+@media (min-width:1920px) {
+    div.seletor{
+        left: 170px;
+    }
+}
+
+@media (max-width:1600px) {
+    div.seletor{
+        left: 70px;
+    }
+}
 
 @media (max-width: 1514px) {
     div.seletor{
-        left: 180px;
+        left: 90px;
     }
     
 
@@ -413,6 +424,22 @@ div.seletor1 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
+@media (min-width:1920px) {
+    div.seletor1{
+        left: 460px;
+    }
+}
+
+
+
+@media (max-width:1600px) {
+    div.seletor1{
+        left: 280px;
+    }
+}
+
+
+
 @media (max-width: 1400px) {
     div.seletor1{
         left: 180px;
@@ -422,7 +449,7 @@ div.seletor1 a:hover{
 
 @media (max-width: 1337px) {
     div.seletor1{
-        left: 40px;
+        left: 140px;
 
     }
 }
@@ -506,6 +533,18 @@ div.seletor2 a:hover{
     background-color: rgb(255, 121, 97);
 }
 
+@media (min-width:1920px) {
+    div.seletor2{
+        left: 700px;
+    }
+}
+
+@media (max-width:1600px) {
+    div.seletor2{
+        left: 500px;
+    }
+}
+
 @media (max-width: 1514px) {
     div.seletor2{
         left: 300px;
@@ -514,7 +553,7 @@ div.seletor2 a:hover{
 
 @media (max-width: 1337px) {
     div.seletor2{
-        left: 70px;
+        left: 260px;
 
     }
 }
