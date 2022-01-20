@@ -55,7 +55,9 @@ img{
     .container-modal{
        display: none;
     }
-   
+    body{
+        background-color: #820AD1;
+    }
     #h2{
         padding-top: 50px;
         padding-bottom: 0px;
