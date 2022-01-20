@@ -57,6 +57,21 @@ li{
     line-height: 200px;
 }
 #pix{
+    transition: 0.5s;
     float: center;
 }
 
+#pix:hover{
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+}
+
+#paypal{
+    transition: 0.5s;
+    float: center;
+}
+
+#paypal:hover{
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+}
